@@ -1,0 +1,32 @@
+html, body, section {
+    width: 100%;
+    height: 100%;
+}
+
+.mySlides {display:none;}
+
+h1, h2, h3, h4, p {
+font-family: 'Oswald', sans-serif;
+font-size: 8vw;
+}
+.fullscreen-img-1 {
+  /* The image used */
+  background-image: url("../img/astronomy-black-wallpaper-constellation-2150.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Video-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
